@@ -1,0 +1,20 @@
+/*! purgecss start ignore */
+[data-container="block"] .fixed {
+    position: static;
+}
+.ccm-ui img {
+    display: initial;
+}
+/*! purgecss end ignore */
+
+.btn {
+	@apply outline-none py-2 px-4 ml-4 text-white font-semibold rounded-md
+}
+
+.btn-teal {
+	@apply bg-teal-500 
+}
+
+.btn-teal:hover {
+	@apply bg-teal-600
+}
